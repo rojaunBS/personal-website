@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/rojaunbs/static/css/main.896bae19.chunk.css",
+    "main.js": "/rojaunbs/static/js/main.56c4f50a.chunk.js",
+    "main.js.map": "/rojaunbs/static/js/main.56c4f50a.chunk.js.map",
+    "runtime-main.js": "/rojaunbs/static/js/runtime-main.3bfb28ba.js",
+    "runtime-main.js.map": "/rojaunbs/static/js/runtime-main.3bfb28ba.js.map",
+    "static/js/2.7ae4bff4.chunk.js": "/rojaunbs/static/js/2.7ae4bff4.chunk.js",
+    "static/js/2.7ae4bff4.chunk.js.map": "/rojaunbs/static/js/2.7ae4bff4.chunk.js.map",
+    "index.html": "/rojaunbs/index.html",
+    "static/css/main.896bae19.chunk.css.map": "/rojaunbs/static/css/main.896bae19.chunk.css.map",
+    "static/js/2.7ae4bff4.chunk.js.LICENSE.txt": "/rojaunbs/static/js/2.7ae4bff4.chunk.js.LICENSE.txt",
+    "static/media/svg-1.svg": "/rojaunbs/static/media/svg-1.498b68fd.svg",
+    "static/media/video1.c9b185ac.mp4": "/rojaunbs/static/media/video1.c9b185ac.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3bfb28ba.js",
+    "static/js/2.7ae4bff4.chunk.js",
+    "static/css/main.896bae19.chunk.css",
+    "static/js/main.56c4f50a.chunk.js"
+  ]
+}
