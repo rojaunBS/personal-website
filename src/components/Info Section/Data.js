@@ -18,7 +18,7 @@ export const homeObjOne = {
 export const homeObjTwo = {
     id: 'experience',
     lightBg: false,
-    lightText: true,
+    lightText: false,
     lightTextDesc: true,
     topLine: 'Premium Bank',
     headline: 'On limited Transactions',
@@ -34,8 +34,8 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
     id: 'contactMe',
-    lightBg: true,
-    lightText: true,
+    lightBg: false,
+    lightText: false,
     lightTextDesc: true,
     topLine: 'Premium Bank',
     headline: 'On limited Transactions',

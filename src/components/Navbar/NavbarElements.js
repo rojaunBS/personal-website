@@ -5,7 +5,7 @@ import {FaBars} from 'react-icons/fa'
 
 
 export const Nav = styled.nav`
-    background-color: transparent;
+    background-color: ${({scrollNav}) => (scrollNav ? '#011627' : 'transparent')};
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -16,13 +16,10 @@ export const Nav = styled.nav`
     z-index: 10;
     top: 0;
     font-size: .9rem;
+    transition: 0.15s ease-in-out;
 
 @media screen and (max-width: 960px){
     transition: 0.8s all ease;
-
-&.active{
-    background: #000;
-}
 }
 `
 
@@ -100,15 +97,17 @@ export const NavItem = styled.li`
 export const NavLinks = styled(LinkS)`
     color: #fff;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     text-decoration: none;
     padding: 0 1rem;
-    height: 100%;
+    height: 90%;
     cursor: pointer;
+    
 
 &.active{
-    color: #15cdfc;
-    border-bottom: 3px solid #01bf71;   
+    border-bottom: 3px solid #15cdfc; 
+    transition: 0.1s ease-in-out;  
 }
 &:hover{
     transition: all 0.2s ease-in-out;
@@ -118,8 +117,8 @@ export const NavLinks = styled(LinkS)`
 
 export const NavBtn = styled.nav`
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    /* margin-right: 24px; */
 
     @media screen and (max-width: 768px){
         display: none;

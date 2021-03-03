@@ -2,24 +2,24 @@ import styled from 'styled-components'
 
 
 export const SkillsContainer = styled.div`
-    height: 800px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: black;
+    background: #fff;
 
 @media screen and (max-width: 768px){
     height: 1100px;
 }
 
 @media screen and (max-width: 480px){
-    height: 1300px;
+    height: 1600px;
 }
 `
 
 export const SkillsCard = styled.div`
-    background: #fff;
+    background: #F6F8FF;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -38,7 +38,7 @@ export const SkillsCard = styled.div`
 `
 
 export const SkillsIcon = styled.img`
-    height: 160px;
+    height: 150px;
     width: 160px;
     margin-bottom: 10px;
 `
@@ -46,8 +46,9 @@ export const SkillsIcon = styled.img`
 
 export const SkillsH1 = styled.h1`
     font-size: 2.5rem;
-    color: white;
+    color: black;
     margin-bottom: 64px;
+    margin-top: 64px;
 
 @media screen and (max-width: 480px){
     font-size: 2rem;

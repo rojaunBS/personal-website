@@ -24,8 +24,9 @@ const Home = () => {
             <HeroSection/>
             <InfoSection {...homeObjOne}/>
             <InfoSection {...homeObjTwo}/>
-            <InfoSection {...homeObjThree}/>
             <Skills/>
+            <InfoSection {...homeObjThree}/>
+            <Footer/>
             {/* <div style ={{display: 'flex', justifyContent: 'center',alignItems:'center' , height: '90vh'}}>
                 <h3>
                 
