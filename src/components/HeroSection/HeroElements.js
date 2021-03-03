@@ -53,7 +53,7 @@ export const HeroContent = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: left;
-    color: red;
+    color: #C41E3D;
     font-size: 40px;
     margin-top: -100px;
     
@@ -61,8 +61,13 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.h1`
     color: #fff;
-    font-size: 48px;
-    text-align: center;
+    font-size: 40px;
+    transition: .5s ease-in-out;
+    /* text-align: center; */
+
+&:hover{
+    margin-left:60px;
+}
 
 @media screen and (max-width: 768px){
     font-size: 40px;
@@ -106,4 +111,20 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px;
 `
+export const HeroSpan1 = styled.span`
+    transition: 1s ease-in-out;
+    cursor: pointer;
 
+
+&:hover{
+    &:before{
+        content:'<Welcome>';
+        color: #E13D5B;
+    }
+    &:after{
+        content:'<Welcome/>';
+        color: #E13D5B;
+    }
+}
+
+`

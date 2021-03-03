@@ -41,7 +41,7 @@ export const NavLogo = styled(LinkR)`
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: 24px;
+    margin-left: 10px;
     font-weight: bold;
     text-decoration: none;
 `
@@ -77,7 +77,9 @@ export const Bars = styled(FaBars)`
 `
 
 export const NavMenu = styled.ul`
+    margin-left: 50px;
     display: flex;
+    justify-content: center;
     align-items: center;
     list-style: none;
     text-align: center;
@@ -106,7 +108,7 @@ export const NavLinks = styled(LinkS)`
     
 
 &.active{
-    border-bottom: 3px solid #15cdfc; 
+    border-bottom: 3px solid #C41E3D; 
     transition: 0.1s ease-in-out;  
 }
 &:hover{
@@ -144,4 +146,10 @@ export const NavBtnLink = styled(LinkR)`
     background: #fff;
     color: #010606;
 }
+`
+export const Img = styled.img`
+    width: 64px;
+    height:55px;
+    /* margin: 0 0 10px 0;
+    padding-right: 0; */
 `

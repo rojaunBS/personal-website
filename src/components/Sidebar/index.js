@@ -17,7 +17,7 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="contact-me" onClick={toggle}>Contact Me</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/signin">Sign In</SidebarRoute>
+                    <SidebarRoute to="/signin">Download Resume</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

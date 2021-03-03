@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from 'react'
-import {Nav, Bars, NavMenu, NavLogo, NavBtnLink, NavBtn, MobileIcon, NavBarContainer, NavItem, NavLinks } from "./NavbarElements";
-import {IconContext} from 'react-icons/lib'
+import {Nav, Bars, NavMenu, NavLogo, NavBtnLink, NavBtn, MobileIcon, NavBarContainer, NavItem, NavLinks, Img } from "./NavbarElements";
 import {animateScroll as scroll} from 'react-scroll';
-import {SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink} from '../Footer/FooterElements'
+import {SocialIconLink} from '../Footer/FooterElements'
 import {FaGithub, FaLinkedin} from 'react-icons/fa'
 import {FiMail} from 'react-icons/fi'
+import logo from '../../images/LogoRSWhite.png'
 const Navbar = ({toggle}) => {
     const [scrollNav, setScrollNav] = useState(false);
 
@@ -29,7 +29,7 @@ const Navbar = ({toggle}) => {
                 <Nav scrollNav={scrollNav}>
                     <NavBarContainer>
                         <NavLogo to="/" onClick={toggleHome}>
-                            <h1>Logo</h1>
+                            <Img src={logo}/>
                         </NavLogo>
                         <MobileIcon onClick={toggle}>
                             <Bars/>
@@ -45,6 +45,11 @@ const Navbar = ({toggle}) => {
                                     Experience
                                 </NavLinks>
                             </NavItem>
+                            {/* <NavItem>
+                                <NavLinks to="projects" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+                                    Projects
+                                </NavLinks>
+                            </NavItem> */}
                             <NavItem>
                                 <NavLinks to="skills" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
                                     Skills
@@ -60,10 +65,10 @@ const Navbar = ({toggle}) => {
                             <SocialIconLink href="//www.linkedin.com/in/rojaunsamuda/" target="_blank" aria-label="LinkedIn">
                                     <FaLinkedin/>
                             </SocialIconLink>
-                            <SocialIconLink href="//www.linkedin.com/in/rojaunsamuda/" target="_blank" aria-label="LinkedIn">
+                            <SocialIconLink href="//github.com/rojaunBS/" target="_blank" aria-label="GitHub">
                                     <FaGithub/>
                             </SocialIconLink>
-                            <SocialIconLink href="//www.linkedin.com/in/rojaunsamuda/" target="_blank" aria-label="LinkedIn">
+                            <SocialIconLink href="mailto:rojaun.samuda@uconn.edu" aria-label="Email">
                                     <FiMail/>
                             </SocialIconLink>
                         </NavBtn>

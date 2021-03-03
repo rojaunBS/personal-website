@@ -6,7 +6,6 @@ import springIcon from '../../images/spring.svg'
 import mongoDBIcon from '../../images/mongodb.svg'
 import javaIcon from '../../images/java.svg'
 import {SkillsContainer, SkillsH1, SkillsWrapper,SkillsCard,SkillsIcon,SkillsH2,SkillsP} from './SkillsElements'
-import Scroll from './scroll'
 
 
 const Skills = () => {

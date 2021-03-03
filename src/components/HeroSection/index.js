@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Typewriter from 'typewriter-effect';
 import Video from '../../videos/video1.mp4'
-import {HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight,} from './HeroElements'
+import {HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight,HeroSpan1} from './HeroElements'
 import {Button} from '../ButtonElement'
 
 const HeroSection = () => {
@@ -17,8 +17,8 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
             </HeroBg>
             <HeroContent>
-                <HeroH1>Hey, My Name is Rojaun</HeroH1>
-                <HeroP>Some more text over here</HeroP>
+            <HeroSpan1><HeroH1>Hey, My Name is Rojaun</HeroH1></HeroSpan1>
+                {/* <HeroP>Hover Above for a greeting</HeroP> */}
                 <Typewriter
                         options={{
                             strings: ["Developer", "Student",
@@ -29,7 +29,7 @@ const HeroSection = () => {
                     />
                 <HeroBtnWrapper>
                     <Button to="about" onMouseEnter = {onHover} onMouseLeave = {onHover}
-                    primary = 'true' dark = 'true'
+                    primary = 'true' dark = 'false'smooth={true} duration={500} spy={true} exact='true' offset={-80}
                     >
                         Get to Know Me { hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
