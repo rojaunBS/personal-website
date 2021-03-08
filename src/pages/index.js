@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Skills from '../components/Skills';
 import Footer from '../components/Footer'
+import Experience from '../components/Expereince';
 
 
 const Home = () => {
@@ -23,25 +24,11 @@ const Home = () => {
             <Navbar toggle={toggle}/>
             <HeroSection/>
             <InfoSection {...homeObjOne}/>
-            <InfoSection {...homeObjTwo}/>
+            <Experience/>
+
             <Skills/>
-            <InfoSection {...homeObjThree}/>
+            {/* <InfoSection {...homeObjThree}/> */}
             <Footer/>
-            {/* <div style ={{display: 'flex', justifyContent: 'center',alignItems:'center' , height: '90vh'}}>
-                <h3>
-                
-                    Hey, my name is <br/>
-                    <h1>Rojaun Samuda</h1>
-                    <Typewriter
-                        options={{
-                            strings: ["Developer", "Student",
-                        "Entrepreneur","Speaker"],
-                            autoStart: true,
-                            loop: true,
-                        }}
-                    />
-                </h3>
-            </div> */}
         </>
     )
 }

@@ -122,7 +122,7 @@ export const HeroSpan1 = styled.span`
         color: #E13D5B;
     }
     &:after{
-        content:'<Welcome/>';
+        content:'</Welcome>';
         color: #E13D5B;
     }
 }

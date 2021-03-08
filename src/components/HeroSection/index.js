@@ -21,7 +21,7 @@ const HeroSection = () => {
                 {/* <HeroP>Hover Above for a greeting</HeroP> */}
                 <Typewriter
                         options={{
-                            strings: ["Developer", "Student",
+                            strings: ["Developer", "Mentor",
                         "Entrepreneur","Speaker"],
                             autoStart: true,
                             loop: true,
@@ -36,20 +36,6 @@ const HeroSection = () => {
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>
-        // <div style ={{display: 'flex', justifyContent: 'center',alignItems:'center' , height: '90vh'}}>
-        //         <h3>
-        //             Hey, my name is <br/>
-        //             <h1>Rojaun Samuda</h1>
-                    // <Typewriter
-                    //     options={{
-                    //         strings: ["Developer", "Student",
-                    //     "Entrepreneur","Speaker"],
-                    //         autoStart: true,
-                    //         loop: true,
-                    //     }}
-                    // />
-        //         </h3>
-        //     </div>
     )
 }
 
