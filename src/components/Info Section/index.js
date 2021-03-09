@@ -14,7 +14,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <a href='../../assets/Rojaun_Samuda_reseume.pdf' target="_blank">
+                                    <a href='../../assets/Rojaun_Samuda_resume.pdf' target="_blank">
                                         <Button to= "home"
                                         smooth= {true}
                                         duration={500}
