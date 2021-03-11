@@ -7,6 +7,15 @@ export const ExperienceContainer = styled.div`
     justify-content: center;
     align-items: center;
     background-color: #F6F8FF;
+    text-align: center;
+
+@media screen and (max-width: 768px){
+    height: 1100px;
+}
+
+@media screen and (max-width: 480px){
+    height: 1400px;
+}
 `
 export const ExperienceWrapper = styled.div`
     max-width: 1100px;
@@ -16,7 +25,7 @@ export const ExperienceWrapper = styled.div`
     align-items: center;
     grid-gap: 16px;
     padding: 0 50px;
-    height: 60%;
+    height: 80%;
     width: 100%;
 
 @media screen and (max-width: 1000px){
@@ -31,8 +40,6 @@ export const ExperienceWrapper = styled.div`
 export const ExperienceTitle = styled.h1`
     font-size: 2.5rem;
     color: black;
-    margin-bottom: 64px;
-    margin-top: -84px;
 `
 
 export const ExperienceCard = styled.div`
@@ -41,8 +48,25 @@ export const ExperienceCard = styled.div`
     text-align: center;
     background-color: #FFF;
     box-sizing: border-box;
-    height: 100%;
+    max-height: 492px;
     flex-direction: column;
+    padding: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    transition: all 0.2s ease-in-out;
+
+&:hover{
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    height: 100%;
+}
+
+@media screen and (max-width: 480px){
+    height: 100%;
+}
 `
 export const CompanyName = styled.h1`
     font-size: 36px;
@@ -62,34 +86,35 @@ export const Years = styled.h3`
 `
 export const Subtitle = styled.h1`
     display: block;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
 `
-export const LangTechContainer = styled.ul`
+
+export const LangTech = styled.p`
     color: black;
-`
-export const LangTech = styled.li`
-    color: black;
-    list-style-type: none;
+    /* list-style-type: none; */
 `
 
 export const DescriptionH1 = styled.h2`
-    color: orange;
-    margin: 0px;
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 0px;
 `
 export const DescriptionUl = styled.ul`
     display: block;
     align-items: center;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     padding-inline-start: 40px;
+    padding-inline-end: 40px;
     list-style-type: none;
     
 `
 export const DescriptionLi = styled.li`
-    color: orange;
+    color: black;
     margin: 0px;
     
 `

@@ -14,7 +14,7 @@ export const SkillsContainer = styled.div`
 }
 
 @media screen and (max-width: 480px){
-    height: 1600px;
+    height: 1800px;
 }
 `
 
@@ -38,32 +38,35 @@ export const SkillsCard = styled.div`
 `
 
 export const SkillsIcon = styled.img`
-    height: 150px;
+    height: 120px;
     width: 160px;
     margin-bottom: 10px;
 `
 
 
 export const SkillsH1 = styled.h1`
-    font-size: 2.5rem;
+    font-size: 40px;
     color: black;
-    margin-bottom: 64px;
-    margin-top: 64px;
+    /* margin-bottom: 64px;
+    margin-top: 64px; */
 
-@media screen and (max-width: 480px){
-    font-size: 2rem;
-}
+/* @media screen and (max-width: 480px){
+    
+} */
 `
 
 
 export const SkillsWrapper = styled.div`
     max-width: 1000px;
     margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     grid-gap: 16px;
     padding: 0 50px;
+    height: 60%;
 
 @media screen and (max-width: 1000px){
     grid-template-columns: 1fr 1fr;
