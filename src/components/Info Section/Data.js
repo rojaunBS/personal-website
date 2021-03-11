@@ -4,7 +4,7 @@ export const homeObjOne = {
     lightText: false,
     lightTextDesc: true,
     headline: 'About Rojaun:',
-    description: 'I have a passion for learning new technologies that improve my developing skills as well as understanding others. Starting with small assignments in school, I\'ve now transitioned into working on independent projects. I aspire to work as a full stack developer creating products will change and improve lives.  ',
+    description: 'I have a passion for understanding others as well as learning new technologies that improve my developing skills. Starting with small assignments in school, I\'ve now transitioned into working on independent projects. I aspire to work as a full stack developer contributing to meaningful applications that will both change and improve lives.  ',
     buttonLabel: 'Resumé',
     imgStart: false,
     img: require('../../images/rojaunIcon.PNG').default,

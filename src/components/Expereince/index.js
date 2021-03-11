@@ -16,7 +16,7 @@ const Experience = () => {
                         <LangTech>Java, Spring, MongoDB, Git, Bootsrap</LangTech>
                     <DescriptionH1>Tasks:</DescriptionH1>
                     <DescriptionUl>
-                        <DescriptionLi>Tested, created, and maintained scripts that tested functionality of web applicaitons while also performing enhancements on previous features and styling of the application</DescriptionLi>
+                        <DescriptionLi>Tested, created, and maintained scripts that checked functionality of web applicaitons while also performing enhancements on previous features and styling of the application.</DescriptionLi>
                     </DescriptionUl>
                 </ExperienceCard>
                 <ExperienceCard>
@@ -27,8 +27,7 @@ const Experience = () => {
                         <LangTech>Angular, Node.js, Docker, Jenkins, OpenShift</LangTech>
                     <DescriptionH1>Tasks</DescriptionH1>
                     <DescriptionUl>
-                        <DescriptionLi>Coordinated with team memebers to develop a responsive web application that predicts the likelihood a patient resumes in-person care. </DescriptionLi>
-                        <DescriptionLi>worked with people</DescriptionLi>
+                        <DescriptionLi>Coordinated with team memebers to develop a responsive web application that predicts the likelihood a patient resumes in-person care given their age, location, and density of Covid cases. </DescriptionLi>
                     </DescriptionUl>
                 </ExperienceCard>
                 

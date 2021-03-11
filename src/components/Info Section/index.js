@@ -14,14 +14,14 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
-                                <BtnWrap>
+                                {/* <BtnWrap>
                                     <Button2 href='../../assets/Rojaun_Samuda_resume.pdf' target="_blank"
                                         primary={primary ? 1 : 0}
                                         dark={dark ? 1 : 0}
                                         dark2={dark2 ? 1 : 0}
                                         >{buttonLabel}
                                     </Button2>
-                                </BtnWrap>
+                                </BtnWrap> */}
                             </TextWrapper>
                         </Column1>
                         <Column2>
