@@ -1,6 +1,7 @@
 import React from 'react'
 import {Button2} from '../ButtonElement'
 import { Img, InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap } from './InfoElements'
+import pdf from '../../assets/Rojaun_Samuda_resume.pdf'
 
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description,buttonLabel,img,alt,primary,dark,dark2}) => {
@@ -14,14 +15,14 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
-                                {/* <BtnWrap>
-                                    <Button2 href='../../assets/Rojaun_Samuda_resume.pdf' target="_blank"
+                                <BtnWrap>
+                                    <Button2 href={pdf}
                                         primary={primary ? 1 : 0}
                                         dark={dark ? 1 : 0}
                                         dark2={dark2 ? 1 : 0}
                                         >{buttonLabel}
                                     </Button2>
-                                </BtnWrap> */}
+                                </BtnWrap>
                             </TextWrapper>
                         </Column1>
                         <Column2>
